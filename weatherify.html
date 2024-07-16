@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHERIFY</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div id="full"></div>
+    <div id="wet"><h1>WEATHERIFY</h1></div>
+    <div class="box">
+        <div class="circle">
+            <h1 id="temp">
+                <p><span id="temp-value">
+                    </span> <span id="temp-unit">&#176c</span> </p>
+            </h1>
+        </div>
+        <div class="search_bar">
+            <form role="search" !important>
+                <input id="search" type="search" placeholder="type city" required autocomplete="off" />
+                <button id="go" type="submit">Go</button>
+            </form>
+        </div>
+        <div id='location'><p>................</p></div>
+        <div id="climate"><p>........................</p></div>
+        <div id="humidity"><p>..............</p></div>
+        <div id="windspeed"></p>.........................</p></div>
+  <div id="sam">
+        <div id="sunrise"><p>....</p></div>
+        <div id="sunset"><p>.....</p></div>
+  </div>
+    </div>
+    </div>
+
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+<script src="weath.js"></script>
+
+</html>

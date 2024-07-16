@@ -1,0 +1,125 @@
+body{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    background-image: url('rain.gif');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box{
+    width: 800px;
+    height: 750px;
+    background-color:transparent;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border: 5px groove whitesmoke; 
+    border-radius: 20%;   
+    box-shadow: 7px 7px rgb(206, 198, 192);
+    position: relative;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color:wheat;
+    position:absolute;
+    margin: 15px;
+    border-radius: 100%;
+    background-image: url('sunanime.gif');
+    background-size: 200px;
+}
+#temp{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 72px;
+    color:royalblue;
+}
+.search_bar{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#search{
+    width: 300px;
+    height: 30px;
+    border-radius: 8%;
+    box-shadow: 3px 3px rgb(44, 197, 184);
+}
+#go{
+   height: 28px;
+   background-color: aliceblue;
+ 
+}
+#go:hover{
+    background-color :#ff678f;;
+
+}
+#search:hover{
+    background-color:#ff678f ;
+    font-size: larger;
+}
+#location{
+    color: red;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 50px;
+}
+#climate{
+    color: aquamarine;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 50px;
+}
+#humidity{
+    margin-top: 30px;
+    margin-left:230px;
+    color: #ff678f;
+    font-size: 40px;
+}
+#windspeed{
+    color: red;
+    margin-left: 230px;
+    margin-top: 20px;
+    font-size: 40px;;
+}
+#google_translate_element{
+    position: absolute;
+    top: 100px;
+   justify-content: end;
+   right: 20px;
+}
+
+#sunrise{
+    color: #ff678f;
+    font-size: 22px;
+    margin-left :230px ;
+    display: block;
+    font-size: 40px;
+}
+#sunset{
+    color: aqua;
+    display: block;
+    font-size: 40px;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+#sam{
+    margin-top: 10px;
+    font-size: 22px;
+    display:block;
+}
+#wet{
+    color: red;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    margin-bottom: 0%;
+    margin-top: 20px;
+    
+}
